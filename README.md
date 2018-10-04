@@ -7,8 +7,8 @@ Para completar correctamente los pasos de configuración en vuestro sistema de m
 
 Preparación de la base del servicio
 
-- Descargar la última versión del instalado de ruby. 
-    #\curl -sSL https://get.rvm.io | bash -s stable --ruby
+- Descargar la última versión del instalado de ruby.<br>
+<code>#\curl -sSL https://get.rvm.io | bash -s stable --ruby</code>
 - Ejecutar el ejecutable para cargarlo en las variables del sistema
 - Realizar logout de la sesión y entrar de nuevo al sistema
 - Instalar las versiones de ruby necesarias 
