@@ -6,7 +6,7 @@ Las instrucciones de instalación y puesta en producción se han probado en la �
 
 Para completar correctamente los pasos de configuración en vuestro sistema de monitorización en vuestro caso teneis que remitiros al documento del fabricante : [http://assets.nagios.com/downloads/nagiosxi/docs/Accessing_The_XI_Backend_API.pdf]
 
-<h2>Preparación de la base del servicio</h2>
+<h2>Preparación</h2>
 
 - Descargar la última versión del instalado de ruby.<br>
 <code>#\curl -sSL https://get.rvm.io | bash -s stable --ruby</code>
@@ -31,6 +31,23 @@ Para completar correctamente los pasos de configuración en vuestro sistema de m
 - Iniciar smashing<p> 
 <code># smashing start</code>
 - Abrir un navegador e introducir http://<ip>:3030
+<p>
+<br>
+<h2>Instalación de los ficheros</h2> 
+
+Una vez descargado los ficheros y descomprimidos situaremos todos los ficheros en cada uno de las carpetas que ha generado nuestro proyecto con la misma estructura.<br>
+
+<code># cp -r <ruta_de_la_descarga>/nagios-dashboard/* <ruta_de_tu_proyecto>/*</code>
+  
+Volveremos a entrar dentro de nuestro proyecto y ejecutaremos nuevamente smashing
+<code>smashing start</code>
+<p>
+<h2>Tips</h2>
+Podemos lanzar el proceso de smashing en background utilizando nohub para el proposito. Descargaremos el paquete si fuera necesario.<br>
+<code>yum install nohup</code><br>
+Y lanzaremos smashing con nohub
+<code>nohub smashing start &</code>
+
 
 
   
