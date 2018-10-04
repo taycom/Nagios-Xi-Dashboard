@@ -11,23 +11,23 @@ Preparación de la base del servicio
 <code>#\curl -sSL https://get.rvm.io | bash -s stable --ruby</code>
 - Ejecutar el ejecutable para cargarlo en las variables del sistema
 - Realizar logout de la sesión y entrar de nuevo al sistema
-- Instalar las versiones de ruby necesarias 
-<code># rvm install 1.9.3</code>
+- Instalar las versiones de ruby necesarias<br>
+<code># rvm install 1.9.3</code><br>
 <code># rvm install 2.5.1</code>
-- Instalar las gemas necesarias 
-<code># gem install bundler</code>
+- Instalar las gemas necesarias<br> 
+<code># gem install bundler</code><br>
 <code># gem install smashing</code>
-- Crear un nuevo proyecto para generar los ficheros base
-<code># smashing nuevo_proyecto</code>
-- Entrar en el directory
-<code># cd nuevo_proyecto</code>
-- Editar el fichero "Gemfile" y añadir las siguientes lineas al inicio.
+- Crear un nuevo proyecto para generar los ficheros base<br>
+<code># smashing nuevo_proyecto</code><br>
+- Entrar en el directory<br>
+<code># cd nuevo_proyecto</code><br>
+- Editar el fichero "Gemfile" y añadir las siguientes lineas al inicio.<br>
 <code>gem 'smashing'</code>
 <code>gem 'nokogiri'</code>
-<code>require 'open-uri'</code>
-- Instalar los paquetes requerido
-<code># bundle</code>
-- Iniciar smashing 
+<code>require 'open-uri'</code><br>
+- Instalar los paquetes requerido<br>
+<code># bundle</code><br>
+- Iniciar smashing<p> 
 <code># smashing start</code>
 - Abrir un navegador e introducir http://<ip>:3030
 
