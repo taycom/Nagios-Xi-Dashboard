@@ -1,5 +1,6 @@
 # Nagios-Xi-Dashboard
-Dashboard Dashlets/Smashing for NagiosXI.<br>Proyecto para implantar un dashboard con smashing y extraer la información desde vuestro Nagios XI mediante API.
+      Dashboard Dashlets/Smashing for NagiosXI.<br>
+Proyecto para implantar un dashboard con smashing y extraer la información desde vuestro Nagios XI mediante API.
 
 Las instrucciones de instalación y puesta en producción se han probado en la última versión de Nagios XI disponible durante el 2017.<br>
 
