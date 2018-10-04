@@ -1,12 +1,12 @@
 # Nagios-Xi-Dashboard
-      Dashboard Dashlets/Smashing for NagiosXI.<br>
+Dashboard Dashlets/Smashing for NagiosXI.<br>
 Proyecto para implantar un dashboard con smashing y extraer la información desde vuestro Nagios XI mediante API.
 
 Las instrucciones de instalación y puesta en producción se han probado en la última versión de Nagios XI disponible durante el 2017.<br>
 
 Para completar correctamente los pasos de configuración en vuestro sistema de monitorización en vuestro caso teneis que remitiros al documento del fabricante : [http://assets.nagios.com/downloads/nagiosxi/docs/Accessing_The_XI_Backend_API.pdf]
 
-Preparación de la base del servicio
+<h2>Preparación de la base del servicio</h2>
 
 - Descargar la última versión del instalado de ruby.<br>
 <code>#\curl -sSL https://get.rvm.io | bash -s stable --ruby</code>
